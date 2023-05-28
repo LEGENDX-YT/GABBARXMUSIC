@@ -9,12 +9,12 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "16201655"))
 API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
-BOT_TOKEN = getenv("BOT_TOKEN", "6017132912:AAF45-dbFO9jvx_syMMBtpr-i13gjvClRgI")
+BOT_TOKEN = getenv("BOT_TOKEN", "6017132912:AAEgMYziwFV7okQnxOLpUGulCN4Dd8XGphA")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://maya:mayax@cluster0.9h7skez.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001972946224"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "「 ✘ ʀᴏʙᴏᴛ」")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5896552775").split())
 )
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/httpsDreambig1l")
@@ -75,7 +75,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "") #"AQCwSO1ItTDf8vYzqubkNOVXGOP2mm3X0iRsA8ArVrlgEzpjUVFmE13wn-VwwSIByMvMEGnugTIWtgBiBGRqs1cSEMfwUrfxSCi9ilr7YyyZyY2xexLyk2w6Ij0YHOzSHsQqEjSARYzLEHzMReUfcWI9kB5TV7qQGhQ71kNXY--0OUPBWpQ63HFCTnDxGn_dZu1tjdv-QM5wB3kdcoz2ZkTUHJxyIns4JJoled-EF24Mn2ULnVL8z1qlB3Q-5WtvK_n0WKxp8eoQwOTiUoTqcvhjQow2wd0h9Wh2TXfA9ga5sBBV0gez9WSWdXXdJRzd1B_64AsMgUwvozbnaabVvaiKAAAAATzPA1YA")
+STRING1 = getenv("STRING_SESSION", "BQC_bA7LGSbES1YVnvl4EPl_UI-U32chJELSgIU6LNVbitxbd8t4RW2LWa-7Ls6SWhkZinWTEQ_An1Nafjo04TeEqLZpXz11p2N52P5fX5V8Z7cSpr20rYSfdmcGiMaB7x7JhWMrZPM0v7Os8nNoMIe-TNQrYPZlDygoYO2dAcIIzaCmR8uyTctLLCPyWWnvnwx64fK1jLq9PHA8TusTPLyh3vfESpSlGTK6SZoeEjS7-UKHgea_YoJEFAjzg4wpZfv9OOHNpiYCMW452EeO3g3ZMh3baJyhrMZXLnxbyIM2LG5uVIMXmwFsOzThY-YfE00W2fPzZIRO9ZnMaLlDPsaIAAAAAV8cLhgA") #"AQCwSO1ItTDf8vYzqubkNOVXGOP2mm3X0iRsA8ArVrlgEzpjUVFmE13wn-VwwSIByMvMEGnugTIWtgBiBGRqs1cSEMfwUrfxSCi9ilr7YyyZyY2xexLyk2w6Ij0YHOzSHsQqEjSARYzLEHzMReUfcWI9kB5TV7qQGhQ71kNXY--0OUPBWpQ63HFCTnDxGn_dZu1tjdv-QM5wB3kdcoz2ZkTUHJxyIns4JJoled-EF24Mn2ULnVL8z1qlB3Q-5WtvK_n0WKxp8eoQwOTiUoTqcvhjQow2wd0h9Wh2TXfA9ga5sBBV0gez9WSWdXXdJRzd1B_64AsMgUwvozbnaabVvaiKAAAAATzPA1YA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -93,11 +93,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/8f5868555a8deef2a68c2.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/b84fda37e029ac5d5571c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/8f5868555a8deef2a68c2.jpg",
+    "https://graph.org/file/b84fda37e029ac5d5571c.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -107,12 +107,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://graph.org/file/8f5868555a8deef2a68c2.jpg",
+    "https://graph.org/file/b84fda37e029ac5d5571c.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://graph.org/file/8f5868555a8deef2a68c2.jpg",
+    "https://graph.org/file/b84fda37e029ac5d5571c.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
